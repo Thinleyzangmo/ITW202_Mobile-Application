@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="message"> A smart home or automated home could be based on a platform or hubs that control smart devices and appliances.
+        [26] For instance, using Apples HomeKit, manufacturers can have their home products and accessories controlled by an application in
+        iOS devices such as the iPhone and the Apple Watch.[27][28] This could be a dedicated app or iOS native applications such as Siri.
+        This can be demonstrated in the case of Lenovos Smart Home Essentials, which is a line of smart home devices that are controlled
+        through Apples Home app or Siri without the need for a Wi-Fi bridge.[29] www.stackoverflow.com There are also dedicated smart home
+        hubs that are offered as standalone platforms to connect different smart home products and these include the Amazon Echo, Google Home,
+        Apples HomePod, and Samsungs SmartThings Hub.[30] In addition to the commercial systems, there are many non-proprietary, open source ecosystems;
+        including Home Assistant, OpenHAB and Domoticz.oT devices can be used to enable remote health monitoring and emergency notification systems.
+        These health monitoring devices can range from blood pressure and heart rate monitors to advanced devices capable of monitoring specialized implants
+        such as pacemakers, Fitbit electronic wristbands, or advanced hearing aids.[43] Some hospitals have begun implementing smart beds that can detect
+        when they are occupied and when a patient is attempting to get up. It can also adjust itself to ensure appropriate pressure and support is applied to
+        the patient without the manual interaction of nurses. A 2015 Goldman Sachs report indicated that healthcare IoT devices can save the United States
+        more than $300 billion in annual healthcare expenditures by increasing revenue and decreasing cost.[44] Moreover, the use of mobile devices to support
+        medical follow-up led to the creation of m-health, used analyzed health statistics.
+
+Specialized sensors can also be equipped within living spaces to monitor the health and general well-being of senior citizens,
+        while also ensuring that proper treatment is being administered and assisting people regain lost mobility via therapy as well.
+        These sensors create a network of intelligent sensors that are able to collect, process, transfer, and analyze valuable information
+        in different environments, such as connecting in-home monitoring devices to hospital-based systems.[41] Other consumer devices to encourage
+        healthy living, such as connected scales or wearable heart monitors, are also a possibility with the IoT.[47] End-to-end health monitoring IoT
+        platforms are also available for antenatal and chronic patients, helping one manage health vitals and recurring medication requirements.
+
+Advances in plastic and fabric electronics fabrication methods have enabled ultra-low cost, use-and-throw IoMT sensors. These sensors, along with
+        the required RFID electronics, can be fabricated on paper or e-textiles for wireless powered disposable sensing devices.
+        Applications have been established for point-of-care medical diagnostics, where portability and low system-complexity is essential.
+
+As of 2018 IoMT was not only being applied in the clinical laboratory industry,[38] but also in the healthcare and health insurance industries.
+        IoMT in the healthcare industry is now permitting doctors, patients, and others, such as guardians of patients, nurses, families, and similar,
+        to be part of a system, where patient records are saved in a database, allowing doctors and the rest of the medical staff to have access to patient
+        information.[51] Moreover, IoT-based systems are patient-centered, which involves being flexible to the patients medical conditions.[citation needed]
+        IoMT in the insurance industry provides access to better and new types of dynamic information. This includes sensor-based solutions such as biosensors,
+        wearables, connected health devices, and mobile apps to track customer behaviour. This can lead to more accurate underwriting and new pricing modelsaaaa
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccc
+        cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        eeeeeeeeeeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffggggggggggggggggggggggggggggggggggg
+        gggggggggggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiijjjjjj
+        jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllllllll
+        lmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoooooooooooooooooooooooooooooooooooooooooppppppppppppppppppppppppp
+        pppppppppppppppp</string>
+</resources>
