@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
         mMessageEditText = findViewById(R.id.editText_main);
         mReplyHTextView = findViewById(R.id.text_header_reply);
         mReplyTV = findViewById(R.id.text_message_reply);
+
+        if (savedInstanceState != null){
+            boolean isVisible = savedInstanceState.getBoolean("reply_state");
+            mReplyHTextView.setVisibility(View.VISIBLE);
+            mReplyTV.setText(savedInstanceState.getString("reply_state_mesg"));
+            mReplyTV.setVisibility(View.VISIBLE);
+        }
     }
 
     public void SEND(View view) {
@@ -83,12 +90,13 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(LOG_TAG,"onDestroy");
     }
+
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState){
         super.onSaveInstanceState(outState);
         if (mReplyHTextView.getVisibility() == View.VISIBLE){
             outState.putBoolean("reply_state",true);
-            outState.putString("reply_state_mesg",mReplyTV.getText().toString());
+            outState.putString("reply_state_mesg",mReplyHTextView.getText().toString());
         }
     }
 }
