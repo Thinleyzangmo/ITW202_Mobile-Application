@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">debug</string>
+    <string name="second">second</string>
+    <string name="first">first</string>
+    <string name="add">ADD</string>
+    <string name="sub">SUB</string>
+    <string name="div">DIV</string>
+    <string name="mul">MUL</string>
+    <string name="computationError" />
+</resources>
