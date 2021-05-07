@@ -7,12 +7,27 @@
     tools:context=".MainActivity"
    >
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarStyle"/>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="147dp"
-        android:onClick="donutpop"
+        android:onClick="donut"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.061"
@@ -26,7 +41,7 @@
         android:layout_width="147dp"
         android:layout_height="143dp"
         android:layout_marginStart="16dp"
-        android:onClick="icepop"
+        android:onClick="ice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -37,7 +52,7 @@
         android:id="@+id/imageView9"
         android:layout_width="146dp"
         android:layout_height="175dp"
-        android:onClick="froyopop"
+        android:onClick="froyo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
@@ -61,36 +76,36 @@
         app:layout_constraintVertical_bias="0.082"
         android:fontFamily="sans-serif"/>
 
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="212dp"
-        android:layout_height="175dp"
+        android:layout_width="216dp"
+        android:layout_height="148dp"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/ice"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812"
-        android:fontFamily="sans-serif"/>
+        app:layout_constraintVertical_bias="0.442" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="206dp"
         android:layout_height="147dp"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/froyo"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443"
-        android:fontFamily="sans-serif"/>
-
+        app:layout_constraintVertical_bias="0.773" />
 
     <ImageView
         android:id="@+id/floatingActionButton"
@@ -104,7 +119,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.96"
-        app:srcCompat="@drawable/cart" />
+        app:srcCompat="@drawable/cart"
+        android:src="@drawable/cart"
+         />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
