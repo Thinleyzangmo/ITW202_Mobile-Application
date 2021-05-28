@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             networkInfo = connMgr.getActiveNetworkInfo();
         }
         if (networkInfo != null && networkInfo.isConnected() && queryString.length() != 0){
+            queryBundle.putString("queryString", queryString);
+            getSupportLoaderManager().restartLoader(0, queryBundle, this);
             mAuthorText.setText(" ");
             mTitleText.setText(R.string.load);
         }
