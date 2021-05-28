@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TODO_22</string>
+    <string name="instruction">Enter a book name of book.</string>
+    <string name="button">Search Books</string>
+    <string name="input">Book Title</string>
+    <string name="no_result">No esult Found</string>
+    <string name="no_seacrh">No result</string>
+    <string name="load">Loading.......</string>
+    <string name="no_internet">No NetworkConnection</string>
+</resources>
