@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TODO_23</string>
+    <string name="send_btn">Send custom broadcast</string>
 </resources>

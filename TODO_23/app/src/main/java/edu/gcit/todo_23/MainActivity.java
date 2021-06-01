@@ -1,13 +1,18 @@
 package edu.gcit.todo_23;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
     CustomReciever reciever= new CustomReciever();
+    private static final String ACTION_CUSTOM_BROADCAST=BuildConfig.APPLICATION_ID+ ".ACTION_CUSTOM_BROADCAST";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +24,18 @@ public class MainActivity extends AppCompatActivity {
 
         this.registerReceiver(reciever,filter);
 
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(reciever);
+
     }
 @Override
     protected void onDestroy() {
         this.unregisterReceiver(reciever);
         super.onDestroy();
 }
+
+    public void SendCustomBroadcast(View view) {
+        Intent customBroadcastIntent=new Intent(ACTION_CUSTOM_BROADCAST);
+        LocalBroadcastManager.getInstance(this).sendBroadcast(customBroadcastIntent);
+
+    }
 }
